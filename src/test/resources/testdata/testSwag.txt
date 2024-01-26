@@ -1,0 +1,6 @@
+url https://www.saucedemo.com
+user visual_user
+pass secret_sauce
+fname Tamkeen
+Lastname khan
+zip 563135

@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>SwagLab1</groupId>
+  <artifactId>SwagLab1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  
+  
+  <dependencies>
+	 
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.8.0</version>
+    <scope>test</scope>
+</dependency>
+
+		 
+<dependency>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.16.1</version>
+
+</dependency>
+	  
+	  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.5</version>
+</dependency>
+
+<dependency>
+    <groupId>org.kohsuke</groupId>
+    <artifactId>github-api</artifactId>
+    <version>1.317</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-plugin-api</artifactId>
+    <version>4.0.0-alpha-10</version>
+</dependency>
+
+  </dependencies>
+  
+  
+</project>

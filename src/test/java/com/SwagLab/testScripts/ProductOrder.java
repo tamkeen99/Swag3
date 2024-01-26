@@ -28,10 +28,25 @@ public class ProductOrder extends BaseClass{
 		Thread.sleep(2000);
 		sp.setAdd3();
 		Thread.sleep(2000);
+		
+		sp.setAdd4();
+		
+		Thread.sleep(2000);
+		
+		sp.setAdd5();
+		
+		Thread.sleep(2000);
+		
+		
+		sp.setAdd6();
+		Thread.sleep(2000);
 		sp.setCart();
 		Thread.sleep(2000);
 		SwagLabCheckOut sc= new SwagLabCheckOut(driver);
 		sc.setCheck();
+		
+		
+		
 		
 		FileLib fb= new FileLib();
 		String firstn = fb.getPropertyFile("fname");

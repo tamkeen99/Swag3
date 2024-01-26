@@ -23,6 +23,7 @@ public class LogOutPage {
 	
 	public void setClic() {
 		clic.click();
+	
 	}
 	
 	
@@ -32,6 +33,15 @@ public void setClicLog() {
 		clicLog.click();
 	}
 
+
+@FindBy(xpath="//a[@id='about_sidebar_link']")
+
+private WebElement about;
+
+
+public void setClicAbout() {
+	about.click();
+}
 
 
 }

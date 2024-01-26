@@ -74,12 +74,6 @@ public class ProductOrder extends BaseClass{
 		Thread.sleep(3000);
 	
 	}
-	@Test()
-	public void mroductCheck() {
-	
-		Reporter.log("ProductOrder class ka 2nd method",true);
-	}
-	
 	
 
 }

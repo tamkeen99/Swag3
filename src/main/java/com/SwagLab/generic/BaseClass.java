@@ -31,7 +31,7 @@ public class BaseClass {
 	
 	
 
-@BeforeTest
+@BeforeClass
 @Parameters({"browser"})
  public void openBrowser(String  fan) {
 	if(fan.equalsIgnoreCase("firefox")) {

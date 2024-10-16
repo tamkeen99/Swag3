@@ -24,9 +24,11 @@ public class AboutSwagLab extends BaseClass{
 		
 		
 		
-		lo.setClicAbout();
+		
 		
 		driver.navigate().back();
+		
+	
 	}
 	
 	

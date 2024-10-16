@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-26T20:26:15 IST" name="Suite" finished-at="2024-01-26T20:27:27 IST" duration-ms="72794">
+  <suite started-at="2024-10-06T18:29:25 IST" name="Suite" finished-at="2024-10-06T18:31:00 IST" duration-ms="94395">
     <groups>
     </groups>
-    <test started-at="2024-01-26T20:26:15 IST" name="Test" finished-at="2024-01-26T20:27:27 IST" duration-ms="72794">
+    <test started-at="2024-10-06T18:29:25 IST" name="Test" finished-at="2024-10-06T18:31:00 IST" duration-ms="94395">
       <class name="com.SwagLab.testScripts.AboutSwagLab">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@6572421]" started-at="2024-01-26T20:27:00 IST" name="openBrowser" finished-at="2024-01-26T20:27:07 IST" duration-ms="6798" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@3349e9bb]" started-at="2024-10-06T18:30:17 IST" name="openBrowser" finished-at="2024-10-06T18:30:22 IST" duration-ms="5368" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,25 +18,97 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="logIn()[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@6572421]" started-at="2024-01-26T20:27:07 IST" name="logIn" finished-at="2024-01-26T20:27:10 IST" duration-ms="3348" status="PASS">
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@3349e9bb]" started-at="2024-10-06T18:30:22 IST" name="logIn" finished-at="2024-10-06T18:30:24 IST" duration-ms="1675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method signature="aboutSwag()[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@6572421]" started-at="2024-01-26T20:27:10 IST" name="aboutSwag" finished-at="2024-01-26T20:27:21 IST" duration-ms="11108" status="PASS">
+        <test-method signature="aboutSwag()[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@3349e9bb]" started-at="2024-10-06T18:30:24 IST" name="aboutSwag" finished-at="2024-10-06T18:30:55 IST" duration-ms="31368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aboutSwag -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@6572421]" started-at="2024-01-26T20:27:21 IST" name="logOut" finished-at="2024-01-26T20:27:26 IST" duration-ms="4503" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@3349e9bb]" started-at="2024-10-06T18:30:55 IST" name="logOut" finished-at="2024-10-06T18:30:59 IST" duration-ms="4424" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a id="logout_sidebar_link" class="bm-item menu-item" href="#"> could not be scrolled into view
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f83584db-25a2-48bd-a3a9-f8e6f3a8609b, clickElement {id=3403713d-a77b-4832-bffe-28b3b102c06f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19516, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f83584db-25a2-48bd-a3a9-f8e6f3a8609b)] -> id: logout_sidebar_link]
+Session ID: f83584db-25a2-48bd-a3a9-f8e6f3a8609b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a id="logout_sidebar_link" class="bm-item menu-item" href="#"> could not be scrolled into view
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f83584db-25a2-48bd-a3a9-f8e6f3a8609b, clickElement {id=3403713d-a77b-4832-bffe-28b3b102c06f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19516, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f83584db-25a2-48bd-a3a9-f8e6f3a8609b)] -> id: logout_sidebar_link]
+Session ID: f83584db-25a2-48bd-a3a9-f8e6f3a8609b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.SwagLab.pom.LogOutPage.setClicLog(LogOutPage.java:33)
+at com.SwagLab.generic.BaseClass.logOut(BaseClass.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@6572421]" started-at="2024-01-26T20:27:26 IST" name="closeBrowser" finished-at="2024-01-26T20:27:27 IST" duration-ms="1856" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.SwagLab.testScripts.AboutSwagLab@3349e9bb]" started-at="2024-10-06T18:31:00 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1728219660020" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.SwagLab.testScripts.AboutSwagLab -->
       <class name="com.SwagLab.testScripts.ProductOrder">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.SwagLab.testScripts.ProductOrder@294425a7]" started-at="2024-01-26T20:26:15 IST" name="openBrowser" finished-at="2024-01-26T20:26:22 IST" duration-ms="7069" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.SwagLab.testScripts.ProductOrder@7d8995e]" started-at="2024-10-06T18:29:25 IST" name="openBrowser" finished-at="2024-10-06T18:29:40 IST" duration-ms="14456" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,19 +119,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="logIn()[pri:0, instance:com.SwagLab.testScripts.ProductOrder@294425a7]" started-at="2024-01-26T20:26:22 IST" name="logIn" finished-at="2024-01-26T20:26:26 IST" duration-ms="4364" status="PASS">
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.SwagLab.testScripts.ProductOrder@7d8995e]" started-at="2024-10-06T18:29:40 IST" name="logIn" finished-at="2024-10-06T18:29:42 IST" duration-ms="2160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method signature="productOrder()[pri:0, instance:com.SwagLab.testScripts.ProductOrder@294425a7]" started-at="2024-01-26T20:26:26 IST" name="productOrder" finished-at="2024-01-26T20:26:54 IST" duration-ms="27789" status="PASS">
+        <test-method signature="productOrder()[pri:0, instance:com.SwagLab.testScripts.ProductOrder@7d8995e]" started-at="2024-10-06T18:29:42 IST" name="productOrder" finished-at="2024-10-06T18:30:10 IST" duration-ms="28303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productOrder -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.SwagLab.testScripts.ProductOrder@294425a7]" started-at="2024-01-26T20:26:54 IST" name="logOut" finished-at="2024-01-26T20:26:58 IST" duration-ms="4469" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.SwagLab.testScripts.ProductOrder@7d8995e]" started-at="2024-10-06T18:30:10 IST" name="logOut" finished-at="2024-10-06T18:30:15 IST" duration-ms="4609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.SwagLab.testScripts.ProductOrder@294425a7]" started-at="2024-01-26T20:26:58 IST" name="closeBrowser" finished-at="2024-01-26T20:27:00 IST" duration-ms="1460" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.SwagLab.testScripts.ProductOrder@7d8995e]" started-at="2024-10-06T18:30:15 IST" name="closeBrowser" finished-at="2024-10-06T18:30:17 IST" duration-ms="1919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

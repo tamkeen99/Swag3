@@ -9,11 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">72,794</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">94,395</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.SwagLab.testScripts.AboutSwagLab</td><td><a href="#m0">aboutSwag</a></td><td rowspan="1">1706281030418</td><td rowspan="1">11108</td></tr><tr class="passedodd"><td rowspan="1">com.SwagLab.testScripts.ProductOrder</td><td><a href="#m1">productOrder</a></td><td rowspan="1">1706280986553</td><td rowspan="1">27789</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.SwagLab.testScripts.AboutSwagLab</td><td><a href="#m0">logOut</a></td><td rowspan="1">1728219655568</td><td rowspan="1">4424</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.SwagLab.testScripts.AboutSwagLab</td><td><a href="#m1">closeBrowser</a></td><td rowspan="1">1728219660020</td><td rowspan="1">-1728219660020</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.SwagLab.testScripts.AboutSwagLab</td><td><a href="#m2">aboutSwag</a></td><td rowspan="1">1728219624198</td><td rowspan="1">31368</td></tr><tr class="passedodd"><td rowspan="1">com.SwagLab.testScripts.ProductOrder</td><td><a href="#m3">productOrder</a></td><td rowspan="1">1728219582309</td><td rowspan="1">28303</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.SwagLab.testScripts.AboutSwagLab#aboutSwag</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.SwagLab.testScripts.ProductOrder#productOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.SwagLab.testScripts.AboutSwagLab#logOut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a id=&quot;logout_sidebar_link&quot; class=&quot;bm-item menu-item&quot; href=&quot;#&quot;&gt; could not be scrolled into view
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f83584db-25a2-48bd-a3a9-f8e6f3a8609b, clickElement {id=3403713d-a77b-4832-bffe-28b3b102c06f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19516, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f83584db-25a2-48bd-a3a9-f8e6f3a8609b)] -&gt; id: logout_sidebar_link]
+Session ID: f83584db-25a2-48bd-a3a9-f8e6f3a8609b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at com.SwagLab.pom.LogOutPage.setClicLog(LogOutPage.java:33)
+	at com.SwagLab.generic.BaseClass.logOut(BaseClass.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.SwagLab.testScripts.AboutSwagLab#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.SwagLab.testScripts.AboutSwagLab#aboutSwag</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.SwagLab.testScripts.ProductOrder#productOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
